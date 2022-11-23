@@ -8,58 +8,55 @@ Here is a test scenario that I made based on some of the test cases below:
    Case 1:  As a user, I want to create a public gist.
    Case 2:  As a user, I want to edit an existing gist.
    Case 3:  As a user, I want to delete an existing gist.
-
-Test scenario
-
+------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
 Test Case 1
-  Case: User create a public gist with Github account
-  Test description: Create a public gist with account registered on Github
-  Type: Positive
-  Pre-requisite: Github account
-  
-  Test step: 1. Navigate to https://gist.github.com/
-             2. Navigate to your gist homepage
-             3. Type an optional description and name for your gist
-             4. Type the text of your gist into the gist text box
-             5. Select "Create public gist" option then click "Create public gist"
+
+Case 1: User create a public gist with Github account
+Test description: Create a public gist with account registered on Github
+Type: Positive
+Pre-requisite: Github account 
+Test step: 1. Navigate to https://gist.github.com/
+           2. Navigate to your gist homepage
+           3. Type an optional description and name for your gist
+           4. Type the text of your gist into the gist text box
+           5. Select "Create public gist" option then click "Create public gist"
              
-  Data input: 1. Gist description = Create public gist
-              2. Filename including extension = Publicgist1
-              3. Gist text box = This is create public gist test case
+Data input: 1. Gist description = Create public gist
+            2. Filename including extension = Publicgist1
+            3. Gist text box = This is create public gist test case
               
-  Expected result: 1. "Create public gist" button will active after user has entered all field
-                   2. Redirects Directly to Gist Github discover
-                   3. User can create Gists with different extensions such as .js, .md, .txt, etc
-                   4. User successfully create public gist
-                   4. Gist that have been created will appear in Gist Github discover
-                   
-  Actual result: 
-  Status: (Passed, Failed)
-  
-  Case: User create a public gist with Github account
-  Test description: Create a public gist with account registered on Github
-  Type: Positive
-  Pre-requisite: Github account
-  
-  Test step: 1. Navigate to https://gist.github.com/
-             2. Navigate to your gist homepage
-             3. Type an optional description and name for your gist
-             4. Type the text of your gist into the gist text box
-             5. Select "Create public gist" option then click "Create public gist"
+Expected result: 1. "Create public gist" button will active after user has entered all field
+                 2. User can create Gists with different extensions such as .js, .md, .txt, etc
+                 3. Redirects Directly to Gist Github discover
+                 4. User successfully create public gist
+                 5. Gist that have been created will appear in Gist Github discover
+Actual result: 
+Test date: 
+Tester:
+Status:
+
+Case 2: User create a public gist without Github account
+Test description: Create a public gist without account registered on Github
+Type: Negative
+Pre-requisite:  
+Test step: 1. Navigate to https://gist.github.com/
+           2. Navigate to your gist homepage
+           3. Type an optional description and name for your gist
+           4. Type the text of your gist into the gist text box
+           5. Select "Create public gist" option then click "Create public gist"
              
-  Data input: 1. Gist description = Create public gist
-              2. Filename including extension = Publicgist1
-              3. Gist text box = This is create public gist test case
+Data input: 1. Gist description = Create public gist
+            2. Filename including extension = Publicgist1
+            3. Gist text box = This is create public gist test case
               
-  Expected result: 1. "Create public gist" button will active after user has entered all field
-                   2. Redirects Directly to Gist Github discover
-                   3. User can create Gists with different extensions such as .js, .md, .txt, etc
-                   4. User successfully create public gist
-                   4. Gist that have been created will appear in Gist Github discover
-                   
-  Actual result: 
-  Status: (Passed, Failed)
-  
+Expected result: 1. "Create public gist" button will active after user has entered all field
+                 2. Redirects Directly to Gist Github discover
+                 3. User can create Gists with different extensions such as .js, .md, .txt, etc
+                 4. User successfully create public gist
+                 5. Gist that have been created will appear in Gist Github discover
+Actual result: 
+Status: (Passed, Failed)
+------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
   
   
   
