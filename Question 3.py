@@ -1,6 +1,3 @@
-#I have no experience with automation testing but i try my best to create automation scripts. I created automation script use Selenium and Python. 
-#Here is the detail:
-
 #Test case: User want to register on Facebook. 
 #Test data:
  # •	First name: Faldinando 
